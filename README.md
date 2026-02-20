@@ -22,7 +22,8 @@ They may **not** be:
 - Modified in any way
 - Used to create derivative works
 
-The integrity of the artwork and branding must remain unchanged. If you require a variation, alternate format, or specific sizing, please request it directly rather than modifying the original files.
+The integrity of the artwork and branding must remain unchanged. If you require a variation, alternate format, or specific sizing, please request it directly rather than modifying the original files.  
+
 ---
 
 ## How to Use in OBS (Browser Source)
