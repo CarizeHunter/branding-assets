@@ -23,3 +23,23 @@ They may **not** be:
 - Used to create derivative works
 
 The integrity of the artwork and branding must remain unchanged. If you require a variation, alternate format, or specific sizing, please request it directly rather than modifying the original files.
+---
+
+## How to Use in OBS (Browser Source)
+
+These assets are intended to be used via URL inside OBS.
+
+1. Copy the provided raw GitHub image URL.
+2. In OBS, go to **Sources**.
+3. Click the **+** button.
+4. Select **Browser**.
+5. Name the source and click **OK**.
+6. Paste the image URL into the **URL** field.
+7. Set width and height as needed.
+8. In the **Custom CSS** field, ensure the background is transparent:
+
+```css
+body {
+    margin: 0;
+    background: rgba(0,0,0,0);
+}
