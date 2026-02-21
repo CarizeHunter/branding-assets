@@ -26,18 +26,22 @@ The integrity of the artwork and branding must remain unchanged. If you require 
 
 ---
 
-## How to Use in OBS (Browser Source)
+## Quick Start – Adding the LC85 Logo in OBS
 
-These assets are intended to be used via URL inside OBS.
+### Using the URL (Browser Source)
 
-1. Copy the provided raw GitHub image URL.
-2. In OBS, go to **Sources**.
-3. Click the **+** button.
-4. Select **Browser**.
-5. Name the source and click **OK**.
-6. Paste the image URL into the **URL** field.
-7. Set width and height as needed.
-8. In the **Custom CSS** field, ensure the background is transparent:
+1. Copy the provided logo URL.
+2. In OBS, go to **Sources** and click the **+** button.
+3. Select **Browser**.
+4. Paste the URL into the **URL** field.
+5. Set the width and height as needed.
+6. Click **OK**.
 
-```css
-body { background-color: rgba(0, 0, 0, 0) !important; } or img { background: none !important; }
+### If the Logo Has a Green Background
+
+1. Right-click the Browser Source.
+2. Select **Filters**.
+3. Under **Effect Filters**, click the **+** button.
+4. Choose **Chroma Key**.
+5. Leave the Key Color Type set to **Green**.
+6. Adjust Similarity if needed for a clean edge.
