@@ -40,7 +40,4 @@ These assets are intended to be used via URL inside OBS.
 8. In the **Custom CSS** field, ensure the background is transparent:
 
 ```css
-body {
-    margin: 0;
-    background: rgba(0,0,0,0);
-}
+body { background-color: rgba(0, 0, 0, 0) !important; } or img { background: none !important; }
